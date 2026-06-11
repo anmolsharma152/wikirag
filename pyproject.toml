@@ -1,0 +1,18 @@
+[project]
+name = "wikirag"
+version = "0.1.0"
+description = "A local Wikipedia retrieval-augmented question answering CLI."
+readme = "README.md"
+requires-python = "==3.11.9"
+dependencies = [
+    "faiss-cpu==1.13.2",
+    "numpy==2.3.5",
+    "sentence-transformers==5.2.2",
+    "torch==2.10.0+cpu",
+    "torchvision==0.25.0+cpu",
+    "transformers==5.0.0",
+    "wikipedia==1.4.0",
+]
+
+[tool.uv]
+extra-index-url = ["https://download.pytorch.org/whl/cpu"]
