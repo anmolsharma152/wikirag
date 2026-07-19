@@ -2,6 +2,15 @@
 
 A lightweight, local **Retrieval-Augmented Generation (RAG)** engine that allows you to chat with Wikipedia articles using semantic search.
 
+
+## Docs
+
+| Doc | Purpose |
+|-----|---------|
+| **[docs/STATUS.md](./docs/STATUS.md)** | Handoff status |
+| [docs/setup.md](./docs/setup.md) | Setup |
+| [AGENTS.md](./AGENTS.md) | Agent guidance |
+
 It runs entirely on your CPU after the first model download. The project intentionally uses **encoder-style transformer models**, not a decoder/GPT-style generative LLM.
 
 ## Features
